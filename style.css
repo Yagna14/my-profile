@@ -1,0 +1,135 @@
+/* Colors and fonts */
+
+body { 
+
+	background-image:url(images/background-image.jpg);
+	color : black;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 15px;
+	font-weight: lighter; 
+}
+
+
+h1,h2,h3 {
+
+	font-family :'Roboto',sans-serif;
+}
+
+h1 {
+	color : #2A714B;
+	font-weight: 600;
+	font-size : 32px;
+	letter-spacing:5px;
+}
+
+h2 {
+	color : #4FAE82;
+	font-size : 32px;
+	font-weight:700;
+}
+
+
+a {
+	font-family :'Roboto',sans-serif;  
+	text-decoration : none;
+	color : #42986A;
+	font-weight:600;
+	font-size:17px;
+}
+
+a:hover {
+	color:black;
+}
+
+
+
+/* Custom design with class */
+
+.container {
+	width : 700px;
+	margin: 10px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 50px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align : center;
+}
+
+.img-circle{
+	border-radius : 50%;
+}
+
+.btn-green {
+	background-color: green;
+	color: white;
+	padding:15px 20px;
+	border-radius: 4px; 
+}
+
+.btn-green:hover {
+	background-color: beige;
+	color: black;
+} 
+
+.btntravel-green {
+	background-color:green;
+	color : white;
+	padding:15px 20px;
+	border-radius: 4px; 
+}
+
+.btntravel-green:hover {
+	background-color: beige;
+	color: black;
+} 
+.list-inline{
+	list-style:none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display:inline;
+	padding: 10px;
+}
+
+.list-inline i { 
+	font-size: 50px;
+	color: rgb (230,230,230); 
+}
+
+.list-inline i :hover { 
+	color: black; 
+}
+
+/*Design adjustments using id (1% of design remaining)*/
+
+#introduction p{
+	margin-bottom: 50px;
+}
+
+#travelbtn p{
+	margin-bottom: 50px;
+}
